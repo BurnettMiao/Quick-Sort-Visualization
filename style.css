@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.bar {
+  width: 20px;
+  margin: 0 2px;
+  background-color: #69c0ff;
+  transition: all 0.3s ease;
+}
+
+.pivot {
+  background-color: #f759ab;
+}
+
+.compare {
+  background-color: #52c41a;
+}
+
+.swapped {
+  background-color: #fa8c16;
+}
